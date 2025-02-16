@@ -1,0 +1,84 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Classy deep blue & soft purple */
+    margin: 0;
+}
+
+.profile-card {
+    background: #ffffff; /* Clean white */
+    padding: 30px;
+    width: 340px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffb703; /* Gold border for premium look */
+}
+
+.name {
+    margin: 15px 0 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.bio {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.follow-btn {
+    background: linear-gradient(135deg, #ffb703, #ff8800); /* Gold to deep orange */
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.follow-btn:hover {
+    background: linear-gradient(135deg, #ff8800, #ffb703);
+    transform: scale(1.07);
+}
+
+/* Social Media Icons */
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin: 0 8px;
+    text-decoration: none;
+    color: #555;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #ff8800; /* Change color to orange */
+    transform: translateY(-3px) scale(1.2); /* Smooth floating effect */
+}

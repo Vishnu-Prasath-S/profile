@@ -47,22 +47,7 @@ body {
     margin-bottom: 20px;
 }
 
-.follow-btn {
-    background: linear-gradient(135deg, #0077b6, #00b4d8); /* Navy to cyan */
-    color: white;
-    border: none;
-    padding: 12px 28px;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    font-weight: 500;
-}
 
-.follow-btn:hover {
-    background: linear-gradient(135deg, #00b4d8, #0077b6);
-    transform: scale(1.07);
-}
 
 /* Social Media Icons */
 .contact-info {
